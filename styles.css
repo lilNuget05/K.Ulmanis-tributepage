@@ -1,0 +1,46 @@
+/* for phones */
+@media (max-width: 555px){
+    
+}
+body {
+    background-color: black;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.top-2-sections-layout {
+    display: grid;
+    grid-template-columns: 70% auto;
+}
+.image-section-style {
+    text-align: center;
+    margin:auto;
+}
+.image-style {
+    width: 120%;
+    border: 4px solid white;
+    border-radius: 4px;
+    
+}
+.text-section-style {
+    margin-left: 50px;
+    font-size: 26px;
+    color: white;
+}
+.mid-2-sections-layout {
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+.bot-2-sections-layout {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.link-style {
+    margin-left: 50px;
+    font-size: 26px;
+    color: black;
+    text-decoration: none;
+    background-color: greenyellow;
+    border-radius: 4px;
+    padding: 5px;
+    
+}
